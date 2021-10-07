@@ -417,6 +417,8 @@ background: linear-gradient(360deg, rgba(4,0,41,1) 22%, rgba(59,53,113,0.9863542
     align-items: center;
     flex-direction: column;
     background: url(../img/bg__menu__toggle/bg__menu_toggle.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   header .navegation li
   {
