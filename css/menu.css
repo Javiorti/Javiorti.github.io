@@ -386,12 +386,19 @@ section div a
 .menu .content .box .text
 {
   padding: 15px 0 5px;
+  text-align: center;
 }
 .menu .content .box .text h2
 {
-  text-align: center;
   font-weight: 500;
   color: #111;
+}
+
+ .title p
+{
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.5em;
 }
 
 .descripcion
@@ -407,7 +414,7 @@ section div a
     font-weight: 800;
     color: #000;
     text-align: right;
-    text-shadow: 0px 1px 10px  #000;
+    text-shadow: 0px 1px 10px  #ff1;
     
 }
 
