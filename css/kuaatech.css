@@ -79,7 +79,7 @@ header
 }
 header.sticky
 {
-  background: rgb(134,0,216);
+  background: rgb(4,0,41);
   padding: 10px 20px
 
 }
@@ -415,7 +415,8 @@ background: linear-gradient(360deg, rgba(4,0,41,1) 22%, rgba(59,53,113,0.9863542
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: #fff;
+    background: rgb(4,0,41);
+    background: linear-gradient(360deg, rgba(4,0,41,1) 22%, rgba(59,53,113,0.9863542829241071) 96%);
   }
   header .navegation li
   {
@@ -443,7 +444,7 @@ background: linear-gradient(360deg, rgba(4,0,41,1) 22%, rgba(59,53,113,0.9863542
   .menuToggle.active
   {
     background: url(../menu-icon/bx-x.svg);
-    background-size: 30px;
+    background-size: 40px;
     background-repeat: no-repeat;
     background-position: center;
   }
