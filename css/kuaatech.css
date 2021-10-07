@@ -149,25 +149,19 @@ section
 {
   position: relative;
   width: 50%;
+  
+}
+.row .col50 p
+{
+  color: #fff;
 }
 .titleText
 {
-  color: #000;
+  color: #fff;
   font-size: 2em;
   font-weight: 400;
 }
-.titleText_contacto
-{
-   color: #8600D8;
-  font-size: 2em;
-  font-weight: 400;
-}
-.titleText_contacto span
-{
-  color: #000;
-  font-weight: 700;
-  font-size: 1.5em;
-}
+
 .row .col50 .imgBx
 {
   position: relative;
