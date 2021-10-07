@@ -450,7 +450,7 @@ background: linear-gradient(360deg, rgba(4,0,41,1) 22%, rgba(59,53,113,0.9863542
   }
   header.sticky .menuToggle
   {
-    filter: invert(1);
+    filter: invert(0);
   }
   header.sticky a.logo span
   {
