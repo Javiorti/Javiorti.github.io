@@ -26,7 +26,7 @@ p
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(../img/hambu.jpg);
+  background: url(../img/contacto.svg);
   background-size: cover;
 }
 .banner .content
