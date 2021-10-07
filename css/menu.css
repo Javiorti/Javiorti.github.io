@@ -407,7 +407,7 @@ section div a
     font-weight: 800;
     color: #000;
     text-align: right;
-    text-shadow: 5px 5px 5px #000;
+    text-shadow: 0px 1px 10px  #000;
     
 }
 
