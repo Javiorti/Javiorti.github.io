@@ -4,7 +4,6 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">	
     <link rel="stylesheet" href="css/menu.css" />
-    <!-- <script src="https://kit.fontawesome.com/1cc2b16768.js" crossorigin="anonymous"></script>-->
     <title>Menú Prueba</title>
 </head>
 <body class="hidden">
@@ -34,21 +33,23 @@
 
 <section class="menu" id="menu">
             <div class="title">
-                 <a href="index.html" class="btn__volver"><i class="fas fa-arrow-left"></i>Volver</a>
+                 <a href="index.html" class="btn__volver"><ion-icon name="chevron-back-outline"></ion-icon> Volver</a>
                  <a href="#" class="cta"><i><img src="menu-icon/off.svg"></i>¡Zona Promo!</a>
                 <h2 class="titleText">Nuestro <span>M</span>enú</h2>
-                <p>menu de prueba</p>
+                <p class="icon__menu"> <ion-icon name="fast-food-outline"></ion-icon> <ion-icon name="beer-outline"></ion-icon> <ion-icon name="pizza-outline"></ion-icon></p>
             </div>
             <div class="content">
-                <div class="box">
-                    <div class="imgBx">
-                        <img src="img/seccion_menu/hamburguesa.jpg">
-                    </div>        
+                <a href="#hamburguesas">
+                    <div class="box">
+                        <div class="imgBx">
+                            <img src="img/seccion_menu/hamburguesa.jpg">
+                        </div>        
                 
-                <div class="text">
-                    <h3>Hamburguesas</h3>
-                </div>
-            </div>
+                        <div class="text">
+                            <h3>Hamburguesas</h3>
+                        </div>
+                    </div>
+                </a>
                 <div class="box">
                     <div class="imgBx">
                         <img src="img/seccion_menu/hotdog.jpg">
@@ -85,7 +86,7 @@
                     <h3>Pollo Frito</h3>
                 </div>
             </div>
-            <a href="#hola" style="text-decoration: none;"><div class="box" >
+            <div class="box" >
                     <div class="imgBx">
                         <img src="img/seccion_menu/pollofrito.jpg">  
                     </div>      
@@ -93,7 +94,7 @@
                 <div class="text">
                     <h3>Pollo Frito</h3>
                 </div>
-            </div></a>
+            </div>
             <div class="box">
                     <div class="imgBx">
                         <img src="img/seccion_menu/pollofrito.jpg">  
@@ -116,90 +117,96 @@
         </section>
 
 
-      <section class="menu" id="hola">
+      <section class="menu" id="hamburguesas">
             <div class="title">
-                 <a href="index.html" class="btn__volver"><i class="fas fa-arrow-left"></i>Volver</a>
-                 <a href="#" class="cta"><i><img src="menu-icon/off.svg"></i>¡Zona Promo!</a>
-                <h2 class="titleText">Nuestro <span>M</span>enú</h2>
+                <h2 class="titleText">Zona <span>B</span>urguer</h2>
                 <p>menu de prueba</p>
             </div>
             <div class="content">
-                <div class="box">
-                    <div class="imgBx">
-                        <img src="img/seccion_menu/hamburguesa.jpg">
-                    </div>        
-                
-                <div class="text">
-                    <h3>Hamburguesas</h3>
+                <div class="box__burguer">               
+                    <div class="text">
+                        <h2>Hamburguesa Premiun</h2>
+                    </div>
+                    <div class="descripcion">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit</p>
+                    </div>
+                    <div class="precio">
+                        <h3>25.000Gs</h3>
+                    </div>
                 </div>
-            </div>
-                <div class="box">
-                    <div class="imgBx">
-                        <img src="img/seccion_menu/hotdog.jpg">
-                    </div>        
-               
-                <div class="text">
-                    <h3>HotDog</h3>
+
+
+                <div class="box__burguer">               
+                    <div class="text">
+                        <h2>Hamburguesa Premiun</h2>
+                    </div>
+                    <div class="descripcion">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit</p>
+                    </div>
+                    <div class="precio">
+                        <h3>25.000Gs</h3>
+                    </div>
                 </div>
+
+
+                <div class="box__burguer">               
+                    <div class="text">
+                        <h2>Hamburguesa Premiun</h2>
+                    </div>
+                    <div class="descripcion">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit</p>
+                    </div>
+                    <div class="precio">
+                        <h3>25.000Gs</h3>
+                    </div>
                 </div>
-                <div class="box">
-                    <div class="imgBx">
-                        <img src="img/seccion_menu/pizzas.jpg">  
-                    </div>      
-                
-                <div class="text">
-                    <h3>Pizzas</h3>
+
+
+                <div class="box__burguer">               
+                    <div class="text">
+                        <h2>Hamburguesa Premiun</h2>
+                    </div>
+                    <div class="descripcion">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit</p>
+                    </div>
+                    <div class="precio">
+                        <h3>25.000Gs</h3>
+                    </div>
                 </div>
-            </div>
-                <div class="box">
-                    <div class="imgBx">
-                        <img src="img/seccion_menu/brochetas.jpg">
-                    </div>        
-                
-                <div class="text">
-                    <h3>Brochetas</h3>
+
+
+
+                <div class="box__burguer">               
+                    <div class="text">
+                        <h2>Hamburguesa Premiun</h2>
+                    </div>
+                    <div class="descripcion">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit</p>
+                    </div>
+                    <div class="precio">
+                        <h3>25.000Gs</h3>
+                    </div>
                 </div>
-            </div>
-                <div class="box">
-                    <div class="imgBx">
-                        <img src="img/seccion_menu/pollofrito.jpg">  
-                    </div>      
-                
-                <div class="text">
-                    <h3>Pollo Frito</h3>
-                </div>
-            </div>
-            <div class="box">
-                    <div class="imgBx">
-                        <img src="img/seccion_menu/pollofrito.jpg">  
-                    </div>      
-                
-                <div class="text">
-                    <h3>Pollo Frito</h3>
-                </div>
-            </div>
-            <div class="box">
-                    <div class="imgBx">
-                        <img src="img/seccion_menu/pollofrito.jpg">  
-                    </div>      
-                
-                <div class="text">
-                    <h3>Pollo Frito</h3>
-                </div>
-            </div>
-                <div class="box">
-                    <div class="imgBx">
-                        <img src="img/seccion_menu/bebidas.jpg">  
-                    </div>      
-                
-                <div class="text">
-                    <h3>Bebidas</h3>
-                </div>
-            </div>
             </div>
         </section>
 
-
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
         <script type="text/javascript">
 
@@ -237,6 +244,8 @@
 
             });
         </script>
+
+
 
 </body>
 </html>
