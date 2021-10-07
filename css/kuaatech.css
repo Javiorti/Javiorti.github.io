@@ -411,12 +411,12 @@ background: linear-gradient(360deg, rgba(4,0,41,1) 22%, rgba(59,53,113,0.9863542
     position: fixed;
     top: 80px;
     left: 0;
+    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: rgb(4,0,41);
-    background: linear-gradient(360deg, rgba(4,0,41,1) 22%, rgba(59,53,113,0.9863542829241071) 96%);
+    background: url(../img/bg__menu__toggle/bg__menu_toggle.svg);
   }
   header .navegation li
   {
@@ -425,7 +425,7 @@ background: linear-gradient(360deg, rgba(4,0,41,1) 22%, rgba(59,53,113,0.9863542
   header .navegation li a
   {
     text-decoration: none;
-    color: #111;
+    color: #fff;
     font-size: 1.6em;
     font-weight: 500;
   }
@@ -459,7 +459,7 @@ background: linear-gradient(360deg, rgba(4,0,41,1) 22%, rgba(59,53,113,0.9863542
   }
   header.sticky a.logo
   {
-    color: #ff;
+    color: #fff;
     transition: 1s;
   }
   section
