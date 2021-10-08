@@ -188,6 +188,10 @@ section
   align-items: center;
   flex-direction: column;
 }
+.title p
+{
+  color: #fff;
+}
 .menu .content
 {
   display: flex;
@@ -266,6 +270,7 @@ section
 {
   font-weight: 500;
   color: #000;
+  text-align: center;
 }
 .contact
 {

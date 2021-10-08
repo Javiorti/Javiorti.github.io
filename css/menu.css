@@ -219,22 +219,24 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   right: 0;
   margin: 10px;
   display: inline-block;
-  width: 30px;
+  width: 40px;
   height: 30px;
   font-size: 1.5em;
   align-items: center;
   justify-content: center;
-  background-color: red;
   color: #fff;
   line-height: 25px;
+  padding: 2px;
   cursor: pointer;
-  border-radius: 50%;
+  font-weight: 600;
   
 }
 .close:hover
 {
-  transition: ease-in-out 1s;
+  color: red;
+  transition: ease-in-out 0.2s;
   box-shadow: 0px 0px 17px 0px #111;
+  background-color: rgba(148, 148, 148, 0.58);
 }
 .modal-texto
 {
